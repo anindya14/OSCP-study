@@ -1,5 +1,7 @@
 # OSCP-study
 
+# Methodology cheatsheet - https://hausec.com/pentesting-cheatsheet/#_Toc475368983
+
 # linux Priviledge Escalation scripts:
 
   1. LinEnum.sh - https://github.com/rebootuser/LinEnum
