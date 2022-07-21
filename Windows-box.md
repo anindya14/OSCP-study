@@ -10,3 +10,9 @@ when promped for the import password use the password found by using the crackpk
 
 Command for extracting the certificate
 openssl pkcs12 -in legacyy_dev_auth.pfx -clcerts -nokeys -out certificate.pem
+
+2. To get initial access from the certs above use the tool 
+
+https://github.com/Hackplayers/evil-winrm.git
+
+
