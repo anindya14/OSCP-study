@@ -1,3 +1,8 @@
 Noobsec Cheatsheet
 https://www.noobsec.net/ad-cheatsheet/
 
+WADCOMS (GTFO Bins for Active Directory):
+https://wadcoms.github.io/#+Hash+Windows+Password+Username
+
+ADPeas (Auto Enumerate Active Directory Misconfigurations)
+https://github.com/61106960/adPEAS
