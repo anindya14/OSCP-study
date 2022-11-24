@@ -2,6 +2,8 @@
 
 ## Case 1 - 
 
+$sudo -l 
+
 Matching Defaults entries for wizard on photobomb:
     env_reset, mail_badpass,
     secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
