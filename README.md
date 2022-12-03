@@ -18,6 +18,7 @@
 
 # Actve Directory Exploitation Scripts:
   1. ADPeas - https://github.com/61106960/adPEAS
+  2. WADComs - https://wadcoms.github.io/#
 
 # Report Writing 
 
