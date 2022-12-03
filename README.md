@@ -16,6 +16,8 @@
   2. PowerUP.ps1 - https://github.com/PowerShellEmpire/PowerTools/blob/master/PowerUp/PowerUp.ps1
   3. wesng - https://github.com/bitsadmin/wesng
 
+# Actve Directory Exploitation Scripts:
+  1. ADPeas - https://github.com/61106960/adPEAS
 
 # Report Writing 
 
@@ -26,3 +28,4 @@
 
   1. Linux priv esc cheatsheet (g0tmilk)- https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
   2. Windows Privesc Cheatsheet -   https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/
+  3. AD Methodology - https://book.hacktricks.xyz/windows-hardening/active-directory-methodology
