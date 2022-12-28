@@ -2,6 +2,8 @@
 
 # Methodology cheatsheet - https://hausec.com/pentesting-cheatsheet/#_Toc475368983
 
+# Github CVE-POC Monitor - https://cve-monitor.mousqueton.io/#/README
+
 # linux Priviledge Escalation scripts:
 
   1. LinEnum.sh - https://github.com/rebootuser/LinEnum
