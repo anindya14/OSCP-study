@@ -32,3 +32,8 @@
   1. Linux priv esc cheatsheet (g0tmilk)- https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
   2. Windows Privesc Cheatsheet -   https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/
   3. AD Methodology - https://book.hacktricks.xyz/windows-hardening/active-directory-methodology
+
+#Imp Websites
+
+  1. https://guide.offsecnewbie.com/
+  2. https://pentest.ws/dashboard    = very useful in priv esc. 
