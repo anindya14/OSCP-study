@@ -3,6 +3,7 @@
 1. check history
 2. check sudo -l
 3. check for SUID binaries - find / -perm -u=s -type f 2>/dev/null
+4. check running processes using "pspy"
 
 
 Notes* = 
