@@ -37,3 +37,6 @@
 
   1. https://guide.offsecnewbie.com/
   2. https://pentest.ws/dashboard    = very useful in priv esc. 
+
+#All Kernel exploits Linux 
+https://github.com/kkamagui/linux-kernel-exploits
