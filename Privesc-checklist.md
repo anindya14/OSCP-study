@@ -3,7 +3,8 @@
 1. check history
 2. check sudo -l
 3. check for SUID binaries - find / -perm -u=s -type f 2>/dev/null
-4. check running processes using "pspy"
+4. Check for binaries with capabilities - getcap -r / 2>/dev/null
+5. check running processes using "pspy"
 
 
 Notes* = 
