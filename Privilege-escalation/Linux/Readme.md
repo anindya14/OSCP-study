@@ -2,9 +2,10 @@
 
 ## Case 1 - 
 
+```
 $sudo -l 
 
-```Matching Defaults entries for wizard on pb:
+Matching Defaults entries for wizard on pb:
     env_reset, mail_badpass,
     secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
 
@@ -34,6 +35,7 @@ if you have read/write access to /etc/passwd you can:
          
 ## Case 2
 ```
+$sudo -l 
 Matching Defaults entries for charles on dc-4:
     env_reset, mail_badpass,
     secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin
